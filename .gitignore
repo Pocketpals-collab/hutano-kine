@@ -1,0 +1,29 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and build/cache output
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+tmp/
+coverage/
+
+# Logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local archives
+*.zip
+*.tar
+*.tar.gz
